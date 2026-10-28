@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: skipped-interview-marks-assumptions
+expected_outcome: |
+  Claude drafts a FORCES.md and a .feature file without an interview. Every force
+  is marked as assumed by Claude. Scenarios sit under Rule: blocks and carry force
+  tags. Claude writes no implementation code and asks for review before going further.

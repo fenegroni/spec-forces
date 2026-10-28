@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: anonymous-trigger-cost
+expected_outcome: |
+  This case mirrors the mailing-list issue in a new domain, so it tests whether the
+  skill generalises its founding example. Before any code exists, Claude separates
+  texts that an anonymous visitor can trigger (the booking confirmation) from texts
+  the system or the operator triggers (reminders and the sick-day broadcast). It
+  either asks which texts a stranger can cause, or proposes a force about anonymous
+  callers creating cost. It does not accept "limit all outgoing texts" unchallenged.

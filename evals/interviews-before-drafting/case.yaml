@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: interviews-before-drafting
+expected_outcome: |
+  Claude opens an interview instead of drafting. It asks at most three questions,
+  one of which concerns who can trigger the shortener's behaviour, including
+  anonymous or hostile callers. It writes no .feature file, no FORCES.md and no code.
